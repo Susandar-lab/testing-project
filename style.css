@@ -1,0 +1,35 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Apply styles to the main content */
+main {
+    padding: 2em;
+}
+
+/* Apply styles to paragraphs in the main content */
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
